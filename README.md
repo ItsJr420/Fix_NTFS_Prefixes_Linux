@@ -45,10 +45,16 @@ Or download the ZIP from GitHub and extract it. Keep both `.py` files in the sam
 python3 fix_ntfs_prefixes_gui.py
 ```
 
+![Main window of the GUI, showing detected Steam libraries, options and the log](screenshots/gui-main.png)
+
 1. Click **Auto-detect NTFS libraries** (or **Add folder…** to pick a `steamapps/compatdata` folder manually).
 2. Choose where to store the prefixes.
 3. Leave **Dry run** ticked and click **Run** to preview.
 4. Untick Dry run and click **Run** to do it for real.
+
+The log shows what happened to each prefix. Prefixes that are already symlinks are skipped, as in this run where everything has already been moved:
+
+![Log output after a run, listing each library with skipped prefixes and a summary](screenshots/gui-dry-run.png)
 
 ### Command line
 
