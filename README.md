@@ -30,7 +30,7 @@ No other dependencies.
 
 ```bash
 git clone https://github.com/ItsJr420/Fix_NTFS_Prefixes_Linux
-cd ntfs-proton-prefix-fix
+cd Fix_NTFS_Prefixes_Linux
 ```
 
 Or download the ZIP from GitHub and extract it. Keep both `.py` files in the same folder.
