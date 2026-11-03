@@ -29,7 +29,7 @@ No other dependencies.
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/ntfs-proton-prefix-fix.git
+git clone https://github.com/ItsJr420/ntfs-proton-prefix-fix.git
 cd ntfs-proton-prefix-fix
 ```
 
