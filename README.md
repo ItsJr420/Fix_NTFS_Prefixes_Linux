@@ -1,3 +1,7 @@
+# BEFORE YOU DO THIS YOU MUST RUN THE GAME FIRST!
+
+Let the game crash, when you launch the game for the first time in steam it creates the prefixes that need to be moved over, then you can launch the python script to move said scripts over.
+
 # NTFS Proton Prefix Fix
 
 Move Steam Proton prefixes (`steamapps/compatdata/<appid>`) off NTFS drives onto your Linux home drive, leaving a symlink behind so Steam still finds them.
